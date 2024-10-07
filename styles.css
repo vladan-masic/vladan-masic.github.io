@@ -12,6 +12,7 @@ body {
 
 img {
     width: 30vw;
+    min-width: 200px;
     border-radius: 20px;
 }
 
@@ -22,6 +23,10 @@ img {
 
 nav {
     margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap: 10px;
 }
 
 a {
