@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color:antiquewhite;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+img {
+    width: 30vw;
+    border-radius: 20px;
+}
+
+.main-text {
+    width: 60vw;
+    text-align: left;
+}
+
+nav {
+    margin-bottom: 100px;
+}
+
+a {
+    padding: 20px;
+    background-color: rgb(246, 216, 178);
+    border: solid 3px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(246, 191, 118);
+}
